@@ -4,6 +4,7 @@
 }
 
 .row {
+    background-color: pink;
     --gutter: 30px;
     display: flex;
     flex-wrap: wrap;
@@ -24,6 +25,7 @@
 
 .col-2 {
 	width: calc(100% / 6); /* 12 / 2 */
+    background-color: green;
 }
 
 .col-3 {
@@ -56,10 +58,12 @@
 
 .col-10 {
 	width: calc(100% / 1.2);
+    background-color: blue;
 }
 
 .col-11 {
 	width: calc(100% / 1.09);
+    background-color: brown;
 }
 
 .col-12 {
