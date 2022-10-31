@@ -1,0 +1,65 @@
+.hero {
+    background: url(../img/background.png) center center/cover no-repeat;
+    height: 700px;
+}
+
+.hero_hashtag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 62px;
+    background: var(--green);
+    /* opacity: 0.1; */
+    border-radius: 2000px;
+    width: 175px;
+    height: 32px;
+}
+.hero_hashtag-text {
+    /* opacity: 0; */
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    /* color:  rgba(54, 179, 126, 1); */
+}
+
+.hero_title {
+    width: 474px;
+    font-family: 'Familjen Grotesk';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    letter-spacing: 0.2px;
+    color: var(--black);
+}
+
+.hero_text {
+    margin-top: 28px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: var(--grey);
+}
+
+.hero_btn {
+    margin-top: 52px;
+    background-color: var(--black);
+    border: var(--black);
+    color:#FFFFFF;
+}
+
+.hero_icons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+}
+.hero_icons-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    border: 0.75px solid #1565D8;
+    border-radius: 12px;
+}
