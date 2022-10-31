@@ -49,6 +49,11 @@
     color:#FFFFFF;
 }
 
+.hero_icons-together {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .hero_icons {
     display: flex;
     justify-content: space-between;
@@ -62,4 +67,5 @@
     height: 36px;
     border: 0.75px solid #1565D8;
     border-radius: 12px;
+    margin-right: 8px;
 }
