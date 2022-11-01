@@ -1,3 +1,28 @@
 .footer {
-    
+    /* background-color: green; */
+    height: 100vh;
+}
+
+.footer_block {
+    padding-top: 128px;
+}
+
+.footer__logo {
+    width: 263px;
+    height: 183px;
+}
+
+.footer__circles {
+    display: flex;
+}
+
+.footer__circles > *:not(:last-child) {
+    margin-right: 7px;
+}
+.footer__circles-item {
+    width: 40px;
+    height: 40px;
+    background: #5A7184;
+    opacity: 0.1;
+    border-radius: 100%;
 }
