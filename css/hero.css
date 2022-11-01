@@ -3,6 +3,7 @@
     height: 700px;
     width: 1280px;
     margin: 0 auto;
+    flex-shrink: 1;
 }
 
 .hero_hashtag {
@@ -72,6 +73,3 @@
     margin-right: 8px;
 }
 
-.hero_icons-item svg {
-    border: 1px dashed grey;
-}
