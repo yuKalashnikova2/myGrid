@@ -41,3 +41,8 @@ body {
 	border-color: var(--blue);
 	color: #fff;
 }
+
+.page {
+    display: flex;
+    flex-direction: column;
+}
