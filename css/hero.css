@@ -21,12 +21,6 @@
     line-height: 20px;
     color: var(--green);
 }
-/* .hero_hashtag-text {
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
-    color: var(--green);
-} */
 
 .hero__title {
     width: 474px;
@@ -61,20 +55,20 @@
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1;
+    cursor: pointer;
 }
 
-.hero_icons-together {
+.hero__icons-together {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 30px;
 }
-.hero_icons {
+.hero__icons {
     display: flex;
-    /* justify-content: space-between; */
     margin-top: 48px;
 }
-.hero_icons-item {
+.icons__item {
     display: flex;
     justify-content: center;
     align-items: center;
