@@ -1,29 +1,29 @@
 @import 'general.css';
 
-.header-main {
+.header__main {
     display: flex;
     align-items: center;
     height: 100px;
     margin-bottom: 36px;
 }
 
-.nav-main {
+.nav__main {
     display: flex;
     justify-content: flex-end;
 }
 
-.nav-menu {
+.nav__menu {
     display: flex;
     /* --outside: 40px;
     --user-padding: 10px; */
     margin-right: calc(var(--outside) - var(--user-padding));
 }
 
-.nav-menu > *:not(:last-child) {
+.nav__menu > *:not(:last-child) {
     margin-right: calc(var(--outside) - var(--user-padding) * 2);
 }
 
-.header-nav__item {
+.nav__item {
     display: inline-block;
     font-weight: 600;
     font-size: 16px;
