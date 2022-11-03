@@ -1,9 +1,10 @@
 .hero {
     background: url(../img/background.png) center center/cover no-repeat;
-    height: 700px;
+    min-height: 700px;
     width: 1280px;
     margin: 0 auto;
-    flex-shrink: 1;
+    border-radius: 8px;
+    /* flex-shrink: 1; */
 }
 
 .hero__hashtag {
@@ -22,18 +23,19 @@
 }
 
 .hero__title {
-    width: 474px;
+    /* width: 474px; */
     font-family: 'Familjen Grotesk';
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
     letter-spacing: 0.2px;
     color: var(--black);
+    margin-bottom: 28px;
 }
 
 .hero__text {
-    margin-top: 28px;
-    margin-right: 30px;
+    margin-bottom: 28px;
+    /* margin-right: 30px; */
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
@@ -57,16 +59,20 @@
     cursor: pointer;
 }
 
+.hero__icons {
+    display: flex;
+    margin-top: 48px;
+}
+
 .hero__icons-together {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 30px;
+    font-size: 16px;
+    font-weight: 500;
 }
-.hero__icons {
-    display: flex;
-    margin-top: 48px;
-}
+
 .icons__item {
     display: flex;
     justify-content: center;
