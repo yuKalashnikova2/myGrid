@@ -4,7 +4,6 @@
     width: 1280px;
     margin: 0 auto;
     flex-shrink: 1;
-    min-height: 100vh;
 }
 
 .hero__hashtag {

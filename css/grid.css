@@ -53,8 +53,9 @@
 }
 
 .col-9 {
-	width: calc(100% / 1.333);
-}
+    width: calc(100% / 1.3334);
+   }
+
 
 .col-10 {
 	width: calc(100% / 1.2);
