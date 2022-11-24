@@ -1,0 +1,24 @@
+.form {
+    padding: 100px 0;
+    background-color: var(--blue);
+    color: #FFFFFF;
+}
+
+.form__desr > *:not(:last-child){
+    margin-bottom: 14px;
+}
+
+.form__descr-title {
+    font-family: var(--font-familyTwo);
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 0.2px;
+}
+
+.form__descr-text {
+    font-family:  var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+}
