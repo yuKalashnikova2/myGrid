@@ -59,9 +59,16 @@
     align-items: center;
     flex-shrink: 0;
     order: -1;
+    color: var(--black);
+
 }
 .btn__form {
     margin-top: 0;
-    width: 143px; 
+    width: 143px;
     /* height: 48px; */
 }
+
+.form__subscribe-input:focus  + .form__subscribe-icon  {
+    color: var(--blue);
+}
+
