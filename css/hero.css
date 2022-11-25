@@ -2,8 +2,9 @@
     background: url(../img/background.png) center center/cover no-repeat;
     min-height: 700px;
     width: 1280px;
-    margin: 0 auto;
+    margin: 0 auto 50px;
     border-radius: 8px;
+    padding:  60px 0;
     /* flex-shrink: 1; */
 }
 
@@ -11,7 +12,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 62px;
+    /* margin-top: 62px; */
     background: rgba(54, 179, 126, 0.1);
     border-radius: 2000px;
     width: 175px;
@@ -43,6 +44,9 @@
     color: var(--grey);
 }
 
+.hero__action {
+    margin-top: 52px;
+}
 .hero__btn {
     margin-top: 52px;
     width: 233px;
