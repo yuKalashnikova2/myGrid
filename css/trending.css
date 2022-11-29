@@ -1,0 +1,28 @@
+.trending-header {
+    font-size: 48px;
+}
+
+.trending-nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 18px;
+}
+
+.trending-nav > *:not(:last-child) {
+    margin-right: 38px;
+}
+
+.trending-nav__item {
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: var(--gray);
+}
+
+.trending-nav__item:focus {
+    font-weight: 700;
+    color:var(--black);
+}
