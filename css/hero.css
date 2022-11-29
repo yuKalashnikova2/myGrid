@@ -13,6 +13,7 @@
     justify-content: center;
     align-items: center;
     /* margin-top: 62px; */
+    margin-bottom: 28px;
     background: rgba(54, 179, 126, 0.1);
     border-radius: 2000px;
     width: 175px;
@@ -35,7 +36,7 @@
 }
 
 .hero__text {
-    margin-bottom: 28px;
+    /* margin-bottom: 28px; */
     /* margin-right: 30px; */
     font-style: normal;
     font-weight: 400;

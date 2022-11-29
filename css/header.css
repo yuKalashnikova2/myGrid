@@ -1,21 +1,25 @@
 @import 'general.css';
 
-.header__main {
+.header_main {
     display: flex;
     align-items: center;
     height: 100px;
     margin-bottom: 36px;
 }
 
-.nav__main {
+.logo_main {
+    margin-top: 14px;
+}
+
+.nav_main {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .nav__menu {
     display: flex;
-    /* --outside: 40px;
-    --user-padding: 10px; */
+    align-items: center;
     margin-right: calc(var(--outside) - var(--user-padding));
 }
 

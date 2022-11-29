@@ -9,7 +9,7 @@
 }
 
 .form__descr-title {
-    font-family: var(--font-familyTwo);
+    font-family: var(--font-secondary);
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
@@ -62,7 +62,7 @@
     color: var(--black);
 
 }
-.btn__form {
+.form__btn {
     margin-top: 0;
     width: 143px;
     /* height: 48px; */

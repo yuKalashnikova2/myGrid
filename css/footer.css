@@ -56,6 +56,7 @@
 }
 
 .footer__text {
+    display: block;
     margin-bottom: 24px;
     font-family: 'Open Sans';
     font-style: normal;
@@ -65,18 +66,19 @@
     color: var(--black);
 }
 
-.footer__copy {
+.footer_copy {
     width: 279px;
     margin: 0 auto;
+    margin-bottom: 65px;
     padding-top: 96.14px;
 }
 
-.footer__copyLogo {
+.footer_copy__logo {
     margin-bottom: 23.92px;
     text-align: center;
 }
 
-.footer__copyText {
+.footer_copy__text {
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 16px;
