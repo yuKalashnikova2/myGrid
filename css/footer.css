@@ -37,11 +37,11 @@
     align-items: center;
 }
 
-.footer__promo {
+.footer_promo {
     width: 165px;
 }
 
-.footer__promo > * :not(:last-child) {
+.footer_promo > * :not(:last-child) {
     margin-right: 30px;
 }
 
@@ -75,9 +75,18 @@
 
 .footer_copy__logo {
     margin-bottom: 23.92px;
-    text-align: center;
 }
 
+.footer_copy__icon {
+    margin-left: 100px;
+    width: 56px;
+    height: 56px;
+    background-color: var(--blue);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .footer_copy__text {
     font-family: 'Open Sans';
     font-weight: 400;
