@@ -2,35 +2,30 @@
     padding-top: 128px;
 }
 
-.footer__block {
-    padding-top: 128px;
-}
-
-.footer__logo {
+.footer-logo {
     width: 263px;
     height: 183px;
 }
 
-.footer__logo p {
+.footer-logo p {
         margin: 0;
 }
 
-.footer__icon {
+.footer-icon {
     margin-bottom: 28.04px;
 }
-.footer__circles {
+.footer-circles {
     margin-top: 32.05px;
     display: flex;
 }
 
-.footer__circles > *:not(:last-child) {
+.footer-circles > *:not(:last-child) {
     margin-right: 7px;
 }
-.footer__circles-item {
+.footer-circles__item {
     width: 40px;
     height: 40px;
     background: rgb(223, 222, 222,0.3);
-    /* opacity: 0.1; */
     border-radius: 100%;
     display: flex;
     justify-content: center;
