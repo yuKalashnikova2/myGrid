@@ -1,29 +1,30 @@
-.form {
+.form-main {
     padding: 100px 0;
     background-color: var(--blue);
     color: #FFFFFF;
 }
 
-.form__desr > *:not(:last-child){
+.form-descr > *:not(:last-child){
     margin-bottom: 14px;
 }
 
-.form__descr-title {
+.form-descr__title {
     font-family: var(--font-secondary);
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
     letter-spacing: 0.2px;
+    margin-bottom: 14px;
 }
 
-.form__descr-text {
+.form-descr__text {
     font-family:  var(--font-family);
     font-weight: 400;
     font-size: 18px;
     line-height: 32px;
 }
 
-.form_form {
+.form-submit {
     display: flex;
     align-items: center;
     height: 100%;
@@ -97,6 +98,7 @@
 	border-radius: 4px;
 	flex-shrink: 0;
 	margin-right: 10px;
+    top: 3px;
 }
 
 .form-check__input:checked + .form-check__label:before {

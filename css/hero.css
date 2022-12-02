@@ -9,15 +9,11 @@
 }
 
 .hero__hashtag {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* margin-top: 62px; */
+    display: inline-block;
+    padding: 6px 16px;
     margin-bottom: 28px;
     background: rgba(54, 179, 126, 0.1);
     border-radius: 2000px;
-    width: 175px;
-    height: 32px;
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
@@ -25,7 +21,6 @@
 }
 
 .hero__title {
-    /* width: 474px; */
     font-family: 'Familjen Grotesk';
     font-style: normal;
     font-weight: 700;

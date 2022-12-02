@@ -15,8 +15,12 @@
 	align-items: baseline;
 	cursor: pointer;
 	line-height: 1.4;
-    color: var(--black)
 }
+
+.form-check__color {
+	color: var(--black);
+}
+
 
 .form-check__label:before {
 	content: '';
@@ -30,7 +34,7 @@
 	background-color: #fff;
 	border: 1px solid #C3CAD9;
 	position: relative;
-	top: 1px;
+	/* top: 1px; */
 }
 
 [type="radio"] + .form-check__label:before {

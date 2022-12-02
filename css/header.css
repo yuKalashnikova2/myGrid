@@ -1,33 +1,33 @@
 @import 'general.css';
 
-.header_main {
+.header-main {
     display: flex;
     align-items: center;
     height: 100px;
     margin-bottom: 36px;
 }
 
-.logo_main {
+.logo-main {
     margin-top: 14px;
 }
 
-.nav_main {
+.nav-main {
     display: flex;
     justify-content: flex-end;
     align-items: center;
 }
 
-.nav__menu {
+.nav-menu {
     display: flex;
     align-items: center;
     margin-right: calc(var(--outside) - var(--user-padding));
 }
 
-.nav__menu > *:not(:last-child) {
+.nav-menu > *:not(:last-child) {
     margin-right: calc(var(--outside) - var(--user-padding) * 2);
 }
 
-.nav__item {
+.nav-menu__item {
     display: inline-block;
     font-weight: 600;
     font-size: 16px;
@@ -37,7 +37,7 @@
     padding: var(--user-padding);
 }
 
-.header-nav__item:hover {
+.nav-menu__item:hover {
     color: var(--blue);
 }
 
