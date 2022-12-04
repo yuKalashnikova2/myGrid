@@ -17,6 +17,13 @@
     align-items: center;
 }
 
+@media screen and (max-width: 992px) {
+    .nav-main {
+        display: none;
+        background-color: pink;
+    }
+}
+
 .nav-menu {
     display: flex;
     align-items: center;

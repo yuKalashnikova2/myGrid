@@ -60,6 +60,7 @@ Extra large
 @media screen and (min-width: 992px) {
     .row {
         --gutter: 30px;
+        /* flex-grow: 0; */
     }
 }
 
