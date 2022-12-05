@@ -17,18 +17,19 @@
     align-items: center;
 }
 
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 991px) {
     .nav-main {
         display: none;
         background-color: pink;
     }
-}
+} */
 
 .nav-menu {
     display: flex;
     align-items: center;
     margin-right: calc(var(--outside) - var(--user-padding));
 }
+
 
 .nav-menu > *:not(:last-child) {
     margin-right: calc(var(--outside) - var(--user-padding) * 2);
