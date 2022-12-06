@@ -48,23 +48,23 @@
 }
 
 .collection-title {
-    font-family: var(--font-secondary);
+    /* font-family: var(--font-secondary);
     font-style: normal;
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
     letter-spacing: 0.2px;
-    color: var(--black);
+    color: var(--black); */
     margin-bottom: 24px;
 }
 
 .collection-text {
-    font-family: var(--grey);
+    /* font-family: var(--grey);
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 36px;
-    color: var(--gray);
+    color: var(--grey); */
     margin-bottom: 32px;
 }
 

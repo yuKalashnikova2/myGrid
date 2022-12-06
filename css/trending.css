@@ -1,10 +1,10 @@
-.trending-header {
-    font-family: var(--font-secondary);
+.trending-title {
+    /* font-family: var(--font-secondary);
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
     letter-spacing: 0.2px;
-    color: var(--black);
+    color: var(--black); */
     text-align: center;
 }
 
