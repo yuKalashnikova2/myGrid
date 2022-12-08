@@ -1,0 +1,35 @@
+.block-text {
+	font-size: 16px;
+	line-height: 28px;
+	color: #5A7184;
+	text-align: center;
+}
+
+.block-text > *:not(:last-child) {
+	margin-bottom: 16px;
+}
+
+.block-text__subtitle {
+	font-family: var(--font-secondary);
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 36px;
+	color: #183B56;
+}
+
+@media screen and (min-width: 768px) {
+	.block-text {
+		font-size: 20px;
+		line-height: 36px;
+		text-align: left;
+	}
+
+	.block-text__subtitle {
+		font-size: 48px;
+		line-height: 60px;
+	}
+
+	.block-text > *:not(:last-child) {
+		margin-bottom: 24px;
+	}
+}

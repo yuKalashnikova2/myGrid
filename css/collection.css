@@ -1,30 +1,28 @@
 .collection-main {
-    /* height: 490px; */
     margin-bottom: 64px;
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 576px) {
     .collection-main {
-        height: auto;
+        /* height: auto; */
         margin-bottom: 80px;
     }
 }
 
 @media screen and (min-width: 768px) {
     .collection-main {
-        height: 806px;
-        /* margin-bottom: 380px; */
+        /* height: 806px; */
     }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 992px) {
     .collection-main {
-        height: auto;
+        /* height: auto; */
         margin-bottom: 80px;
     }
 }
 
-.collection-main__girl {
+/* .collection-main__girl {
     width: 320px;
     margin: 0;
 }
@@ -45,30 +43,17 @@
         margin-bottom: 30px;
         text-align: center;
     }
-}
+} */
 
-.collection-title {
-    /* font-family: var(--font-secondary);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
-    letter-spacing: 0.2px;
-    color: var(--black); */
+/* .collection-title {
     margin-bottom: 24px;
 }
 
 .collection-text {
-    /* font-family: var(--grey);
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 36px;
-    color: var(--grey); */
     margin-bottom: 32px;
-}
+} */
 
-.collection-link {
+/* .collection-link {
     font-family: var(--font-family);
     font-style: normal;
     font-weight: 700;
@@ -89,4 +74,66 @@
 .collection-link__icon {
     display: inline-block;
     cursor: pointer;
+} */
+
+
+.collection-image {
+    border-radius: 8px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.collection-image__item {
+    display: block;
+    width: 100%;
+}
+
+@media screen and (max-width: 575px) {
+    .collection-image_main {
+        height: 300px;
+        position: relative;
+    }
+
+    .collection-image__item_center {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .collection-image {
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .collection-image_main .collection-image__item {
+        width: auto;
+        height: 523px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .collection-image_main .collection-image__item {
+        width: auto;
+        height: 407px;
+    }
+
+    .collection-image {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .collection-image_main .collection-image__item {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.collection-link {}
+
+.collection-link__icon {
+    margin-left: 30px;
 }
