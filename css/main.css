@@ -3,13 +3,14 @@
 @import './tools/displays.css';
 @import './tools/order.css';
 @import './block/page.css';
-@import 'header.css';
-@import 'hero.css';
-@import 'footer.css';
-@import 'form.css';
+@import './block/header.css';
+@import './block/hero.css';
+@import './block/footer.css';
+@import './block/form.css';
 @import 'radio.css';
-@import 'trending.css';
-@import 'collection.css';
+@import './block/trending.css';
+@import './block/collection.css';
 @import './block/testimonial.css';
 @import './block/stories.css';
+@import './block/block-text.css';
 

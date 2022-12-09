@@ -6,11 +6,12 @@
     --black: #183B56;
     --green: #36B37E;
     --grey:#5A7184;
-	--font-secondary: 'Familjen Grotesk';
+	--font-secondary: 'HK Grotesk', sans-serif;;
 }
 
 a {
     text-decoration: none;
+	color: var(--blue);
 }
 
 * {
@@ -36,6 +37,10 @@ body {
 
 label {
 	cursor: pointer;
+}
+
+svg {
+	fill: currentColor;
 }
 .btn {
     display: inline-flex;
@@ -107,14 +112,14 @@ label {
     color: var(--green);
 	text-transform: uppercase;
 }
-.subtitle {
-		font-family: var(--font-secondary);
-		font-weight: 700;
-		font-size: 48px;
-		line-height: 60px;
-		letter-spacing: 0.2px;
-		color: var(--black);
-		text-align: center;
+/* .subtitle {
+	font-family: var(--font-secondary);
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 60px;
+	letter-spacing: 0.2px;
+	color: var(--black);
+	text-align: center;
 }
 
 .subtext {
@@ -124,4 +129,4 @@ label {
     font-size: 20px;
     line-height: 36px;
     color: var(--grey);
-}
+} */
