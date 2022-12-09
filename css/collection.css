@@ -24,7 +24,7 @@
     }
 }
 
-.collection-main__girl {
+/* .collection-main__girl {
     width: 320px;
     margin: 0;
 }
@@ -32,16 +32,16 @@
 
 .collection-img__rooms {
     margin-bottom: 30px;
-}
+} */
 
 @media screen and (min-width: 768px) {
-    .collection-img {
+    .ccollection-image {
         margin-bottom: 20px;
     }
 }
 
 @media screen and (min-width: 576px) {
-    .collection-img {
+    .collection-image {
         margin-bottom: 30px;
         text-align: center;
     }

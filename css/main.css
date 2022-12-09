@@ -1,6 +1,8 @@
 @import 'general.css';
 @import './tools/grid.css';
 @import './tools/displays.css';
+@import './tools/order.css';
+@import './block/page.css';
 @import 'header.css';
 @import 'hero.css';
 @import 'footer.css';
@@ -10,4 +12,4 @@
 @import 'collection.css';
 @import './block/testimonial.css';
 @import './block/stories.css';
-@import './tools/order.css';
+
