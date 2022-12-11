@@ -9,16 +9,16 @@
 @media screen and (min-width: 576px) {
     .header-main {
         height: 64px;
-        margin-bottom: 37px;
+        margin-bottom: 24px;
     }
 }
 @media screen and (min-width: 768px) {
     .header-main {
-        height: 64px;
+        height: 38px;
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 992px) {
     .header-main {
         height: auto;
         margin-bottom: 36px;
