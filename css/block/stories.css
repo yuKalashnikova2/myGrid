@@ -1,38 +1,28 @@
 .stories {
     border-top: 1px solid #E5EAF4;
-    margin-bottom: 140px;
-    padding-top: 121px;
+    padding-top: 48px;
+    padding-bottom: 64px;
 }
+
 @media screen and (min-width: 768px) {
     .stories {
-        margin-bottom: 312px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
 }
 
-.stories-descr {
-    text-align: center;
-}
 @media screen and (min-width: 992px) {
-    .stories-descr {
-        text-align: start;
+    .stories {
+        padding-top: 130px;
+        padding-bottom: 140px;
     }
-}
-.stories-descr__marker {
-    margin-bottom: 28px;
-}
-.stories-title {
-    text-align: center;
 }
 
-@media screen and (min-width: 992px) {
-    .stories-title {
-        text-align: start;
-    }
-}
 
 /* .stories-btn {
     text-align: center;
 } */
+
 .stories-btn > *:not(:last-child) {
     margin-right: 22px;
 }
