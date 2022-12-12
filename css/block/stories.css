@@ -22,6 +22,9 @@
     /* background-color: #FAFDFF; */
     background-color: #ddd;
     padding: 20px;
+    position: relative;
+    top: -20px;
+    right: -10px;
 }
 
 .stories-element__base > *:not(:last-child) {
