@@ -19,13 +19,14 @@
 }
 
 .stories-element__base {
-    /* background-color: #FAFDFF; */
-    background-color: #ddd;
+    background-color: #FAFDFF;
     padding: 20px;
     margin-top: -20px;
-    transform: translateX(10px);
     position: relative;
     z-index: 2;
+    width: calc(100% - 10px);
+    margin-right: 0;
+    margin-left: auto;
 }
 
 .stories-element__base > *:not(:last-child) {
@@ -37,7 +38,6 @@
     font-weight: 600;
     font-size: 20px;
     line-height: 24px;
-
     color: var(--black);
 }
 
@@ -55,7 +55,7 @@
 
 .stories-element__image {
     display: block;
-    width: 100%;
+    width: calc(100% - 10px);
 }
 
 @media screen and (min-width: 768px) {
