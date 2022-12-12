@@ -22,9 +22,7 @@
     /* background-color: #FAFDFF; */
     background-color: #ddd;
     padding: 20px;
-    position: relative;
-    top: -20px;
-    right: -10px;
+    transform: translateX(10px) translateY(-20px);
 }
 
 .stories-element__base > *:not(:last-child) {
