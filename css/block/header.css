@@ -1,4 +1,4 @@
-@import 'general.css';
+
 
 .header-main {
     display: flex;
@@ -23,7 +23,7 @@
     .header-main {
         height: auto;
         /* margin-bottom: 36px; */
-        margin: 26px 80px 36px 80px;
+        /* margin: 26px 80px 36px 80px; */
     }
 }
 

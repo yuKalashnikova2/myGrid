@@ -9,15 +9,15 @@
 }
 
 .hero-hashtag {
-    display: inline-block;
-    padding: 6px 16px;
+    /* display: inline-block;
+    padding: 6px 16px; */
     margin-bottom: 28px;
-    background: rgba(54, 179, 126, 0.1);
+    /* background: rgba(54, 179, 126, 0.1);
     border-radius: 2000px;
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
-    color: var(--green);
+    color: var(--green); */ */
 }
 
 .hero-title {
