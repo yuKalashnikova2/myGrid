@@ -3,11 +3,10 @@
 }
 
 .footer-logo {
-    width: 263px;
-    /* height: 183px; */
+    padding-top: 47px;
     text-align: center;
 }
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 576px) {
     .footer-logo {
         margin-bottom: 53px;
     }
@@ -30,13 +29,14 @@
 .footer-circles {
     margin-top: 32.05px;
     display: flex;
-    /* text-align: center; */
-    padding-left: 50px;
+    justify-content: center;
+    /* padding-left: 50px; */
 }
 
 @media screen and (min-width: 768px) {
     .footer-circles {
        padding-left: 0;
+       justify-content: start;
     }
 }
 
