@@ -18,7 +18,7 @@
 	font-size: 28px;
 	line-height: 36px;
 	color: var(--black);
-	text-align: center;
+    margin-bottom: 24px;
 }
 
 @media screen and (min-width: 768px) {
@@ -28,7 +28,7 @@
 		text-align: left;
 	}
 
-	.block-text__subtitle {
+	.block-title__subtitle {
 		font-size: 48px;
 		line-height: 60px;
 	}
