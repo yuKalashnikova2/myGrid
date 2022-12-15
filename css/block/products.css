@@ -1,11 +1,9 @@
 .products__header {
-    /* font-family: var(--font-secondary);
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 60px;
-    letter-spacing: 0.2px;
-    color: var(--black); */
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 48px;
 }
 
 /* @media screen and (min-width:992px) {
@@ -16,7 +14,7 @@
 .products-nav {
     display: flex;
     justify-content: center;
-    margin-top: 18px;
+    margin-right: 120px;
 }
 
 .products-nav > *:not(:last-child) {
@@ -25,7 +23,6 @@
 
 .products-nav__item {
     font-family: var(--font-family);
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 25px;
