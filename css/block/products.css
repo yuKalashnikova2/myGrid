@@ -1,4 +1,4 @@
-.trending-title {
+.products__header {
     /* font-family: var(--font-secondary);
     font-weight: 700;
     font-size: 48px;
@@ -9,21 +9,21 @@
 }
 
 /* @media screen and (min-width:992px) {
-    .trending-header {
+    .products-header {
         text-align:justify;
 } */
 
-.trending-nav {
+.products-nav {
     display: flex;
     justify-content: center;
     margin-top: 18px;
 }
 
-.trending-nav > *:not(:last-child) {
+.products-nav > *:not(:last-child) {
     margin-right: 38px;
 }
 
-.trending-nav__item {
+.products-nav__item {
     font-family: var(--font-family);
     font-style: normal;
     font-weight: 400;
@@ -32,50 +32,50 @@
     color: #5A7184;
 }
 
-.trending-item__color {
+.products-item__color {
     font-weight: 700;
     color:var(--black);
 }
 
-.trending-main {
+.products-main {
     /* display: flex; */
     flex-wrap: wrap;
     padding-top: 48px;
 }
 
-.trending-item {
+.products-item {
     width: auto;
     margin-right: 30px;
     margin-bottom: 50px;
 }
 
 @media screen and (max-width:575px) {
-    .trending-item {
+    .products-item {
         width: 140px;
     }
 }
 
-.trending-item__img {
+.products-item__img {
     margin-bottom: 20px;
     width: 140px;
 }
 
 @media screen and (min-width: 576px) {
-    .trending-item__img {
+    .products-item__img {
         width: 260px;
     }
 }
 @media screen and (min-width: 768px) {
-    .trending-item__img {
+    .products-item__img {
         width: 100%;
     }
 }
 
-.trending-item__descr {
+.products-item__descr {
     display: flex;
     justify-content: space-between;
 }
-.trending-item__title {
+.products-item__title {
     margin-bottom: 3px;
     font-family: var(--font-secondary);
     font-weight: 700;
@@ -85,19 +85,19 @@
     color: var(--black);
 }
 
-.trending-item__price {
+.products-item__price {
     font-weight: 400;
     font-size: 20px;
     line-height: 36px;
     color: var(--grey);
 }
 
-.trending-main__item {
+.products-main__item {
     background-color: var(--blue);
     height: 350px;
     border-radius: 2%;
 }
- .trending-main__paragrath {
+ .products-main__paragrath {
     font-family: var(--font-secondary);
     font-weight: 700;
     font-size: 24px;
@@ -108,7 +108,7 @@
     display: block;
  }
 
-.trending-main__paragrath:before {
+.products-main__paragrath:before {
     content: '+';
     display: block;
     padding-top: 120px;
