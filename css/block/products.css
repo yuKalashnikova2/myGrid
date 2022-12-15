@@ -40,14 +40,26 @@
     margin-bottom: 50px;
 }
 
-.products-item__preview {
-    /* margin-bottom: 20px; */
+.product-item__preview {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border-radius: 8%;
 }
 
+.product-item__preview::after {
+    content: '';
+    display: block;
+    padding-top: 130%;
+}
 
 .products-item__image {
    display: block;
    width: 100%;
+   position: absolute;
+   left: 0;
+   top: 50%;
+   transform: translateY(-50%);
 }
 
 .products-item__footer {
@@ -75,7 +87,7 @@
     line-height: 32px;
 }
 
-.tproducts-item__link:hover {
+.products-item__link:hover {
     color: var(--blue);
 }
 
