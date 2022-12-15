@@ -50,12 +50,25 @@
 } */
 
 .trending-item__preview {
+	position: relative;
+	overflow: hidden;
+	border-radius: 8px;
 	margin-bottom: 20px;
+}
+
+.trending-item__preview::after {
+	content: '';
+	display: block;
+	padding-top: 130%;
 }
 
 .trending-item__image {
 	display: block;
 	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 .trending-item__footer {
@@ -119,6 +132,7 @@
 	height: 350px;
 	border-radius: 2%;
 }
+
 .trending-main__paragrath {
 	font-family: var(--font-secondary);
 	font-weight: 700;
