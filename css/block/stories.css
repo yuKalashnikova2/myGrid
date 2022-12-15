@@ -17,11 +17,6 @@
     }
 }
 
-
-.stories-element {
-    /* position: relative; */
-}
-
 .stories-element__preview {
     overflow: hidden;
 }
