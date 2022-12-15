@@ -19,7 +19,6 @@
 	font-size: 28px;
 	line-height: 36px;
 	color: var(--black);
-    margin-bottom: 24px;
 }
 
 @media screen and (min-width: 768px) {
