@@ -1,7 +1,8 @@
 .stories {
-    border-top: 1px solid #E5EAF4;
+    /* border-top: 1px solid #E5EAF4; */
+	padding-top: 48px;
     padding-bottom: 64px;
-    padding-top: 48px;
+    
 }
 
 @media screen and (min-width: 768px) {
@@ -77,6 +78,7 @@
 	background-color: transparent;
 	border-radius: 50%;
 	display: flex;
+	justify-content: center;
 }
 
 .stories-navigation {

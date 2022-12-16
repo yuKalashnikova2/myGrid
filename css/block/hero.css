@@ -1,27 +1,14 @@
 .hero {
-    background: url(../img/background.png) center center/cover no-repeat;
+    background: url(../../img/background.png) center center/cover no-repeat;
     min-height: 700px;
     width: 1280px;
     margin: 0 auto 50px;
     border-radius: 8px;
     padding:  60px 0;
-    /* flex-shrink: 1; */
 }
 
-/* .hero-hashtag { */
-    /* display: inline-block;
-    padding: 6px 16px; */
-    /* margin-bottom: 28px; */
-    /* background: rgba(54, 179, 126, 0.1);
-    border-radius: 2000px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
-    color: var(--green); */
-/* } */
-
 .hero-title {
-    font-family: 'Familjen Grotesk';
+    font-family: var(--font-secondary);
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
