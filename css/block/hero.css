@@ -56,7 +56,7 @@
 }
 
 .hero-action {
-    /* margin-top: 52px; */
+   text-align: center;
 }
 
 @media screen and (min-width: 992px) {
@@ -68,7 +68,15 @@
 .hero-icons {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin-top: 48px;
+}
+
+@media screen and (max-width: 575px) {
+    .hero-icons > * {
+        margin-right: 16px;
+        margin-bottom: 16px;
+    }
 }
 
 
@@ -82,16 +90,6 @@
     font-weight: 500;
 }
 
-@media screen and (min-width: 576px) {
-    .hero-icons {
-        flex-wrap: nowrap;
-    }
-
-    .hero-icons__together {
-        margin-right: 30px;
-    }
-}
-
 .icons-item {
     display: flex;
     justify-content: center;
@@ -103,3 +101,20 @@
     margin-right: 8px;
 }
 
+@media screen and (max-width: 575px) {
+    .icons-item {
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .hero-icons {
+        flex-wrap: nowrap;
+    }
+
+    .hero-icons__together {
+        margin-right: 30px;
+    }
+
+}
