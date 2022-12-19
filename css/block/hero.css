@@ -1,5 +1,5 @@
 .hero {
-    background: url(../../img/background.png) center center/cover no-repeat;
+    background: url(../../img/hero-desktop.jpg) center center/cover no-repeat;
     min-height: 700px;
     margin: 0 auto;
     border-radius: 8px;
@@ -61,6 +61,7 @@
 
 @media screen and (min-width: 992px) {
     .hero-action {
+        text-align: left;
         margin-top: 52px;
     }
 }
@@ -68,11 +69,15 @@
 .hero-icons {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    /* justify-content: center; */
     margin-top: 48px;
 }
 
 @media screen and (max-width: 575px) {
+    .hero-icons {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
     .hero-icons > * {
         margin-right: 16px;
         margin-bottom: 16px;
