@@ -1,12 +1,11 @@
-
 .block-text {
 	font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 28px;
-    color: #5A7184;
-    text-align: center;
-    padding-bottom: 36px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: #5a7184;
+	text-align: center;
+	/* padding-bottom: 36px; */
 }
 
 .block-text > *:not(:last-child) {
@@ -14,7 +13,7 @@
 }
 
 .block-title__subtitle {
-    font-family: var(--font-secondary);
+	font-family: var(--font-secondary);
 	font-weight: 700;
 	font-size: 28px;
 	line-height: 36px;
@@ -31,7 +30,7 @@
 	.block-title__subtitle {
 		font-size: 48px;
 		line-height: 60px;
-        text-align: left;
+		text-align: left;
 	}
 
 	.block-text > *:not(:last-child) {
