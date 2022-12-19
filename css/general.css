@@ -76,7 +76,6 @@ svg {
 
 .btn_secondary {
 	background-color: transparent;
-	border: 1px solid rgb(226, 225, 225);
 }
 
 .btn_secondary:hover {

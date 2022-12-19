@@ -11,7 +11,6 @@ Extra large
 
 
 .container {
-    /* width: 1140px; */
     width: 100%;
     margin: 0 auto;
 }
@@ -48,7 +47,6 @@ Extra large
 }
 
 .row {
-    /* background-color: pink; */
     --gutter: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -116,7 +114,6 @@ Extra large
 
 .col-10 {
 	width: calc(100% / 1.2);
-    /* background-color: blue; */
 }
 
 .col-11 {

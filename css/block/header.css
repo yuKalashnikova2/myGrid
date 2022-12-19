@@ -1,5 +1,3 @@
-
-
 .header-main {
     display: flex;
     align-items: center;
@@ -12,6 +10,7 @@
         margin-bottom: 24px;
     }
 }
+
 @media screen and (min-width: 768px) {
     .header-main {
         height: 38px;
@@ -22,8 +21,6 @@
 @media screen and (min-width: 992px) {
     .header-main {
         height: auto;
-        /* margin-bottom: 36px; */
-        /* margin: 26px 80px 36px 80px; */
     }
 }
 
@@ -36,13 +33,6 @@
     justify-content: flex-end;
     align-items: center;
 }
-
-/* @media screen and (max-width: 991px) {
-    .nav-main {
-        display: none;
-        background-color: pink;
-    }
-} */
 
 .nav-menu {
     display: flex;
