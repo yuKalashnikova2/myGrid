@@ -1,21 +1,21 @@
 :root {
-    --outside: 40px;
-    --user-padding: 10px;
-    --font-family: 'Open Sans', sans-serif;
-    --blue: #1565D8;
-    --black: #183B56;
-    --green: #36B37E;
-    --grey:#5A7184;
-	--font-secondary: 'HK Grotesk', sans-serif;;
+	--outside: 40px;
+	--user-padding: 10px;
+	--font-family: 'Open Sans', sans-serif;
+	--blue: #1565d8;
+	--black: #183b56;
+	--green: #36b37e;
+	--grey: #5a7184;
+	--font-secondary: 'HK Grotesk', sans-serif;
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 	color: var(--blue);
 }
 
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 h1,
@@ -32,7 +32,7 @@ p {
 }
 
 body {
-    font-family: var(--font-family);
+	font-family: var(--font-family);
 }
 
 label {
@@ -43,7 +43,7 @@ svg {
 	fill: currentColor;
 }
 .btn {
-    display: inline-flex;
+	display: inline-flex;
 	align-items: center;
 	border: none;
 	border-radius: 8px;
@@ -52,7 +52,7 @@ svg {
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 1;
-	color: rgb(255,255,255);
+	color: rgb(255, 255, 255);
 	height: 48px;
 	padding: 0 25px;
 	cursor: pointer;
@@ -60,8 +60,8 @@ svg {
 }
 
 .btn_large {
-    height: 56px;
-    padding: 0 32px;
+	height: 56px;
+	padding: 0 32px;
 }
 
 .btn_black {
@@ -99,17 +99,15 @@ svg {
 	padding: 0 12px;
 }
 
-
 .hashtag {
 	display: inline-block;
-    padding: 6px 16px;
-    margin-bottom: 28px;
-    background: rgba(54, 179, 126, 0.1);
-    border-radius: 2000px;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
-    color: var(--green);
+	padding: 6px 16px;
+	background: rgba(54, 179, 126, 0.1);
+	border-radius: 100px;
+	font-weight: 600;
+	font-size: 14px;
+	line-height: 20px;
+	color: var(--green);
 	text-transform: uppercase;
 }
 
