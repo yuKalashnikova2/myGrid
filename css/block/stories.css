@@ -1,46 +1,49 @@
 .stories {
-    /* border-top: 1px solid #E5EAF4; */
+	/* border-top: 1px solid #E5EAF4; */
 	padding-top: 48px;
-    padding-bottom: 64px;
-    
+	padding-bottom: 64px;
+}
+
+/* -responsive */
+.stories__content {
+	margin-bottom: 36px;
 }
 
 @media screen and (min-width: 768px) {
-    .stories {
-        padding: 80px 0;
-    }
+	.stories {
+		padding: 80px 0;
+	}
 }
 
 @media screen and (min-width: 992px) {
-    .stories {
-        padding-bottom: 140px;
-        padding-top: 130px;
-    }
+	.stories {
+		padding-bottom: 140px;
+		padding-top: 130px;
+	}
 }
 
 .stories-element__preview {
-    overflow: hidden;
+	overflow: hidden;
 }
 
 .stories-element__image {
-    display: block;
-    width: calc(100% - 10px);
+	display: block;
+	width: calc(100% - 10px);
 }
 
 .stories-element__base {
-    width: calc(100% - 10px);
-    background-color: #FAFDFF;
-    padding: 20px;
-    margin-top: -20px;
-    position: relative;
-    z-index: 2;
-    margin-right: 0;
-    margin-left: auto;
-
+	width: calc(100% - 10px);
+	background-color: #fafdff;
+	padding: 20px;
+	margin-top: -20px;
+	position: relative;
+	z-index: 2;
+	margin-right: 0;
+	margin-left: auto;
 }
 
 .stories-element__base > *:not(:last-child) {
-    margin-bottom: 12px;
+	margin-bottom: 12px;
 }
 
 .stories-element__title {
@@ -68,7 +71,6 @@
 	font-size: 16px;
 	line-height: 22px;
 }
-
 
 .stories-button {
 	color: #959ead;
@@ -103,11 +105,3 @@
 		margin-right: 22px;
 	}
 }
-
-
-
-
-
-
-
-
