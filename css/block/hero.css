@@ -23,42 +23,20 @@
 		min-height: 700px;
 		padding: 60px;
 	}
-}
 
-.hero-title {
-	font-family: var(--font-secondary);
-	font-style: normal;
-	font-weight: 700;
-	font-size: 32px;
-	letter-spacing: 0.2px;
-	color: var(--black);
-	margin-bottom: 28px;
-	text-align: center;
-}
-
-@media screen and (min-width: 768px) {
-	.hero-title {
-		font-size: 48px;
-		text-align: left;
+	.hero .block-text > *:not(:last-child) {
+		margin-bottom: 28px;
 	}
-}
-
-@media screen and (min-width: 992px) {
-	.hero-title {
-		font-size: 58px;
-	}
-}
-
-.hero-text {
-	font-style: normal;
-	font-weight: 400;
-	font-size: 20px;
-	line-height: 36px;
-	color: var(--grey);
 }
 
 .hero-action {
-	text-align: center;
+	margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+	.hero-action {
+		margin-top: 36px;
+	}
 }
 
 @media screen and (min-width: 992px) {
@@ -69,15 +47,20 @@
 
 .hero-icons {
 	display: flex;
+	align-items: flex-start;
 	flex-wrap: wrap;
 	justify-content: center;
-	margin-top: 48px;
+	margin-top: 24px;
 }
 
-@media screen and (max-width: 575px) {
-	.hero-icons > * {
-		margin-right: 16px;
-		margin-bottom: 16px;
+.hero-icons > *:not(:last-child) {
+	margin-right: 16px;
+	margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+	.hero-icons > *:not(:last-child) {
+		margin-right: 30px;
 	}
 }
 
@@ -90,30 +73,51 @@
 	font-weight: 500;
 }
 
-.icons-item {
+.hero-icons__item {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 36px;
-	height: 36px;
-	border: 0.75px solid var(--blue);
-	border-radius: 12px;
+	width: 24px;
+	height: 24px;
+	border: 1px solid var(--blue);
+	border-radius: 6px;
 	margin-right: 8px;
+	/* fixed width */
+	flex-shrink: 0;
+	flex-wrap: nowrap;
 }
 
-@media screen and (max-width: 575px) {
-	.icons-item {
-		width: 24px;
-		height: 24px;
-	}
+.hero-icons__item > svg {
+	width: 14px;
+	height: 14px;
 }
 
 @media screen and (min-width: 576px) {
 	.hero-icons {
-		flex-wrap: nowrap;
+		margin-top: 40px;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.hero-icons {
+		justify-content: flex-start;
 	}
 
-	.hero-icons__together {
-		margin-right: 30px;
+	.hero-icons__item {
+		width: 36px;
+		height: 36px;
+		border-radius: 12px;
+	}
+
+	.hero-icons__item > svg {
+		width: 22px;
+		height: 22px;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.hero-icons {
+		margin-top: 48px;
+		justify-content: flex-start;
 	}
 }
