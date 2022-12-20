@@ -1,11 +1,23 @@
 .hero {
-    background: url(../../img/hero-desktop.jpg) center center/cover no-repeat;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-bottom: 65px;
+    max-width: 1280px;
+    background: url(../../img/hero-mobile.png) top center/cover no-repeat;
+    padding-top: 380px;
+    padding-bottom: 36px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .hero {
+    background: url(../../img/hero-desktop.jpg) top center/cover no-repeat;
     min-height: 700px;
     margin: 0 auto;
     border-radius: 8px;
-    /* padding:  60px; */
     margin-bottom: 65px;
 }
+    }
 
 @media screen and (min-width: 768px) {
     .hero {
