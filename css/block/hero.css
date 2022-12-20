@@ -15,23 +15,16 @@
     min-height: 700px;
     margin: 0 auto;
     border-radius: 8px;
-    margin-bottom: 65px;
+    margin-bottom: 80px;
+    padding: 36px 28px;
 }
     }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 992px) {
     .hero {
-        margin: 0 20px 80px 20px;
+        min-width: 700px;
         padding: 60px;
     }
-
-}
-
-@media screen and (min-width: 1200px) {
-    .hero {
-        margin: 0 80px 120px 80px;
-    }
-
 }
 
 .hero-title {
@@ -81,15 +74,11 @@
 .hero-icons {
     display: flex;
     flex-wrap: wrap;
-    /* justify-content: center; */
+    justify-content: center;
     margin-top: 48px;
 }
 
 @media screen and (max-width: 575px) {
-    .hero-icons {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
     .hero-icons > * {
         margin-right: 16px;
         margin-bottom: 16px;
@@ -120,8 +109,8 @@
 
 @media screen and (max-width: 575px) {
     .icons-item {
-        width: 24px;
-        height: 24px;
+        width: 14px;
+        height: 14px;
     }
 }
 
