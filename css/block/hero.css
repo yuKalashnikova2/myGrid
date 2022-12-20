@@ -68,13 +68,8 @@
     color: var(--grey);
 }
 
-.hero-action {
-   text-align: center;
-}
-
 @media screen and (min-width: 992px) {
     .hero-action {
-        text-align: left;
         margin-top: 52px;
     }
 }
@@ -82,14 +77,16 @@
 .hero-icons {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 48px;
+    margin-top: 20px;
 }
 
 @media screen and (max-width: 575px) {
     .hero-icons > * {
         margin-right: 16px;
         margin-bottom: 16px;
+    }
+    .hero-icons {
+        justify-content: center;
     }
 }
 
