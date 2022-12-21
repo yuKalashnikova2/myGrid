@@ -8,11 +8,21 @@
     margin-bottom: 14px;
 }
 
-@media screen and (max-width:576px) {
+ .form-descr {
+     text-align: center;
+ }
+
+@media screen and (min-width:992px) {
     .form-descr {
-        text-align: center;
+        text-align: left;
     }
 }
+
+/* @media screen and (min-width:992px) {
+    .form-descr {
+        margin-right: 100px;
+    }
+}  - под вопросом отступ*/
 
 .form-descr__title {
     font-family: var(--font-secondary);
@@ -38,15 +48,23 @@
     margin-top: 30px;
 }
 
+
+
 @media screen and (min-width: 576px) {
     .form-submit {
         padding: 0;
-        /* margin-top: 0; */
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .form-submit {
+        margin-top: 0;
     }
 }
 
 .form__subscribe {
     width: 100%;
+
 }
 .form__subscribe-content {
     display: flex;
@@ -80,7 +98,6 @@
 }
 
 .form__subscribe-icon {
-    padding-left: 16px;
     display: flex;
     align-items: center;
     flex-shrink: 0;
@@ -88,10 +105,14 @@
     color: var(--black);
 
 }
-.form__btn {
-    margin-top: 0;
-    width: 143px;
-    /* height: 48px; */
+
+@media screen and (min-width: 576px) {
+    .form-btn__show {
+        display: none;
+    }
+    .form__subscribe-icon {
+        padding-left: 16px;
+    }
 }
 
 @media screen and (max-width: 576px) {
