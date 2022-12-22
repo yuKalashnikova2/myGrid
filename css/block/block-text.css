@@ -1,24 +1,22 @@
-
 .block-text {
-	font-family: var(--font-family);
+    font-family: var(--font-family);
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    color: #5A7184;
+    color: #5a7184;
     text-align: center;
-    padding-bottom: 36px;
 }
 
 .block-text > *:not(:last-child) {
-	margin-bottom: 16px;
+    margin-bottom: 16px;
 }
 
 .block-title__subtitle {
     font-family: var(--font-secondary);
-	font-weight: 700;
-	font-size: 28px;
-	line-height: 36px;
-	color: var(--black);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: var(--black);
 }
 
 /* @media screen and (max-width: 575px) {
@@ -29,19 +27,18 @@
 	} */
 
 @media screen and (min-width: 768px) {
-	.block-text {
-		font-size: 20px;
-		line-height: 36px;
-		text-align: left;
-	}
+    .block-text {
+        font-size: 20px;
+        line-height: 36px;
+        text-align: left;
+    }
 
-	.block-title__subtitle {
-		font-size: 48px;
-		line-height: 60px;
+    .block-title__subtitle {
+        font-size: 48px;
+        line-height: 60px;
+    }
 
-	}
-
-	.block-text > *:not(:last-child) {
-		margin-bottom: 24px;
-	}
+    .block-text > *:not(:last-child) {
+        margin-bottom: 24px;
+    }
 }
