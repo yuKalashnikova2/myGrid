@@ -1,10 +1,10 @@
 .stories {
-	padding-top: 48px;
+    padding-top: 48px;
     padding-bottom: 64px;
 }
 
 .stories__content {
-	margin-bottom: 36px;
+    margin-bottom: 36px;
 }
 
 @media screen and (min-width: 768px) {
@@ -31,14 +31,13 @@
 
 .stories-element__base {
     width: calc(100% - 10px);
-    background-color: #FAFDFF;
+    background-color: #fafdff;
     padding: 20px;
     margin-top: -20px;
     position: relative;
     z-index: 2;
     margin-right: 0;
     margin-left: auto;
-
 }
 
 .stories-element__base > *:not(:last-child) {
@@ -46,70 +45,75 @@
 }
 
 .stories-element__title {
-	font-family: var(--font-secondary);
-	font-weight: 600;
-	font-size: 20px;
-	line-height: 24px;
-	color: var(--black);
+    font-family: var(--font-secondary);
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--black);
 }
 
 @media screen and (min-width: 768px) {
-	.stories-element__base {
-		padding: 20px 30px 20px 20px;
-	}
+    .stories-element__base {
+        padding: 20px 30px 20px 20px;
+    }
 
-	.stories-element__title {
-		font-size: 22px;
-		line-height: 32px;
-	}
+    .stories-element__title {
+        font-size: 22px;
+        line-height: 32px;
+    }
 }
 
 .stories-element__link {
-	display: inline-block;
-	font-weight: 600;
-	font-size: 16px;
-	line-height: 22px;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
 }
 
-
 .stories-button {
-	color: #959ead;
-	width: 48px;
-	height: 48px;
-	border: 2px solid;
-	background-color: transparent;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
+    color: #959ead;
+    width: 48px;
+    height: 48px;
+    border: 2px solid;
+    background-color: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 .stories-navigation {
-	margin-top: 26px;
+    margin-top: 26px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.stories-navigation > *:not(:last-child) {
-	margin-right: 16px;
+.stories-navigation > * {
+    margin-left: 8px;
+    margin-right: 8px;
 }
 
 @media screen and (min-width: 768px) {
-	.stories-navigation {
-		margin-top: 42px;
-	}
+    .stories-navigation {
+        margin-top: 42px;
+    }
 
-	.stories-button {
-		width: 56px;
-		height: 56px;
-	}
+    .stories-button {
+        width: 56px;
+        height: 56px;
+    }
 
-	.stories-navigation > *:not(:last-child) {
-		margin-right: 22px;
-	}
+    .stories-navigation > * {
+        margin-left: 12px;
+        margin-right: 12px;
+    }
 }
 
+@media screen and (min-width: 992px) {
+    .stories-navigation > * {
+        margin-left: 0;
+    }
 
-
-
-
-
-
-
+    .stories-navigation > *:not(:last-child) {
+        margin-right: 22px;
+    }
+}
