@@ -1,26 +1,19 @@
 .header-main {
     display: flex;
     align-items: center;
-    height: 100px;
-}
-
-@media screen and (min-width: 576px) {
-    .header-main {
-        height: 64px;
-        margin-bottom: 24px;
-    }
+    height: 64px;
+    margin-bottom: 24px;
 }
 
 @media screen and (min-width: 768px) {
     .header-main {
-        height: 38px;
-        padding-top: 20px;
+        margin-bottom: 36px;
     }
 }
 
 @media screen and (min-width: 992px) {
     .header-main {
-        height: auto;
+        height: 100px;
     }
 }
 
@@ -40,7 +33,6 @@
     margin-right: calc(var(--outside) - var(--user-padding));
 }
 
-
 .nav-menu > *:not(:last-child) {
     margin-right: calc(var(--outside) - var(--user-padding) * 2);
 }
@@ -58,4 +50,3 @@
 .nav-menu__item:hover {
     color: var(--blue);
 }
-
