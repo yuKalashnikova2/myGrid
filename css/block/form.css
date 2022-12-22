@@ -59,6 +59,13 @@
     }
 }
 
+@media screen and (min-width: 1200px) {
+    .form-submit {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
 .form__subscribe {
     width: 100%;
 }
