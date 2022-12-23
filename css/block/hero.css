@@ -1,133 +1,129 @@
 .hero {
-    /* margin-left: auto;
-    margin-right: auto; */
-    margin-bottom: 65px;
-    max-width: 1280px;
-    background: url(../../img/hero-mobile.png) top center/cover no-repeat;
-    padding-top: 380px;
-    padding-bottom: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 65px;
+  max-width: 1280px;
+  background: #e9ebea url(../../img/hero-mobile.png) top center no-repeat;
+  padding-top: 380px;
+  padding-bottom: 36px;
 }
-
- .hero_center {
-     text-align: center;
- }
-
- @media screen and (min-width: 768px) {
-   .hero_center {
-       text-align: start;
-   }
- }
 
 @media screen and (min-width: 768px) {
     .hero {
-    background: url(../../img/hero-desktop.jpg) top center/cover no-repeat;
-    min-height: 700px;
-    margin: 0 auto;
-    border-radius: 8px;
-    margin-bottom: 80px;
-    padding: 36px 28px;
-}
+        background: #e9ebea url(../../img/hero-desktop.jpg) top center no-repeat;
+        width: calc(100% - 40px);
+        border-radius: 8px;
+        margin-bottom: 80px;
+        padding: 36px 28px;
     }
+}
 
-@media screen and (min-width: 992px) {
+/* @media screen and (min-width: 992px) {
     .hero {
         min-width: 700px;
         padding: 60px;
     }
-}
+} */
 
-.hero-title {
-    font-family: var(--font-secondary);
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    letter-spacing: 0.2px;
-    color: var(--black);
-    margin-bottom: 28px;
-    text-align: center;
+.hero_center {
+  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
-    .hero-title {
-        font-size: 48px;
-        text-align: left;
-    }
+  .hero_center {
+    text-align: start;
+  }
+}
+
+.hero-title {
+  font-family: var(--font-secondary);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  letter-spacing: 0.2px;
+  color: var(--black);
+  margin-bottom: 28px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-title {
+    font-size: 48px;
+    text-align: left;
+  }
 }
 
 @media screen and (min-width: 992px) {
-    .hero-title {
-        font-size: 58px;
-    }
+  .hero-title {
+    font-size: 58px;
+  }
 }
 
 .hero-text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 36px;
-    color: var(--grey);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: var(--grey);
 }
 
 @media screen and (min-width: 992px) {
-    .hero-action {
-        margin-top: 52px;
-    }
+  .hero-action {
+    margin-top: 52px;
+  }
 }
 
 .hero-icons {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 @media screen and (max-width: 575px) {
-    .hero-icons > * {
-        margin-right: 16px;
-        margin-bottom: 16px;
-    }
-    .hero-icons {
-        justify-content: center;
-    }
+  .hero-icons > * {
+    margin-right: 16px;
+    margin-bottom: 16px;
+  }
+  .hero-icons {
+    justify-content: center;
+  }
 }
 
-
-
 .hero-icons__together {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* margin-right: 30px; */
-    font-size: 16px;
-    font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-right: 30px; */
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .icons-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 36px;
-    height: 36px;
-    border: 0.75px solid var(--blue);
-    border-radius: 12px;
-    margin-right: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 36px;
+  height: 36px;
+  border: 0.75px solid var(--blue);
+  border-radius: 12px;
+  margin-right: 8px;
 }
 
 @media screen and (max-width: 575px) {
-    .icons-item {
-        width: 24px;
-        height: 24px;
-        border: 0.5px solid var(--blue);
-        border-radius: 8px;
-    }
+  .icons-item {
+    width: 24px;
+    height: 24px;
+    border: 0.5px solid var(--blue);
+    border-radius: 8px;
+  }
 }
 
 @media screen and (min-width: 576px) {
-    .hero-icons {
-        flex-wrap: nowrap;
-    }
+  .hero-icons {
+    flex-wrap: nowrap;
+  }
 
-    .hero-icons__together {
-        margin-right: 30px;
-    }
-
+  .hero-icons__together {
+    margin-right: 30px;
+  }
 }
