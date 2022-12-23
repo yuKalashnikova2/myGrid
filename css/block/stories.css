@@ -85,10 +85,13 @@
 
 .stories-navigation {
 	margin-top: 26px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.stories-navigation > *:not(:last-child) {
-	margin-right: 16px;
+.stories-navigation > * {
+    margin-left: 8px;
+	margin-right: 8px;
 }
 
 @media screen and (min-width: 768px) {
@@ -101,9 +104,19 @@
 		height: 56px;
 	}
 
-	.stories-navigation > *:not(:last-child) {
-		margin-right: 22px;
+	.stories-navigation > * {
+        margin-left: 12px;
+		margin-right: 12px;
 	}
+}
+@media screen and (min-width: 992px) {
+    .stories-navigation>* {
+        margin-left: 0;
+    }
+
+    .stories-navigation>*:not(:last-child) {
+        margin-right: 22px;
+    }
 }
 
 
