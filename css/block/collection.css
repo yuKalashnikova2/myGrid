@@ -1,6 +1,5 @@
 .collection-main {
     margin-bottom: 64px;
-    /* margin: 20px; */
 }
 
 @media screen and (min-width: 576px) {
@@ -12,6 +11,16 @@
 @media screen and (min-width: 992px) {
     .collection-main {
         margin-bottom: 80px;
+    }
+}
+
+.collection-main__content {
+    margin-top: 36px;
+}
+
+@media screen and (min-width: 768px) {
+    .collection-main__content {
+        margin-top: 40px;
     }
 }
 
