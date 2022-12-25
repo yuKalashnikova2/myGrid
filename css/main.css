@@ -2,6 +2,7 @@
 @import './tools/grid.css';
 @import './tools/displays.css';
 @import './tools/order.css';
+@import './tools/mx-auto.css';
 @import './block/page.css';
 @import './block/header.css';
 @import './block/hero.css';

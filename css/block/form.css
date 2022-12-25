@@ -1,7 +1,19 @@
 .form-main {
-    padding: 100px 0;
+    padding: 64px 0;
     background-color: var(--blue);
     color: #FFFFFF;
+}
+
+@media screen and (min-width:768px) {
+   .form-main {
+       padding: 72px 0;
+   }
+}
+
+@media screen and (min-width:768px) {
+    .form-main {
+        padding: 100px 0;
+    }
 }
 
 .form-descr > *:not(:last-child){
@@ -18,19 +30,19 @@
     }
 }
 
-/* @media screen and (min-width:992px) {
-    .form-descr {
-        margin-right: 100px;
-    }
-}  - под вопросом отступ*/
-
 .form-descr__title {
     font-family: var(--font-secondary);
     font-weight: 700;
-    font-size: 48px;
+    font-size: 28px;
     line-height: 60px;
     letter-spacing: 0.2px;
     margin-bottom: 14px;
+}
+
+@media screen and (min-width:576px) {
+    .form-descr__title {
+        font-size: 48px;
+    }
 }
 
 .form-descr__text {
@@ -44,15 +56,15 @@
     display: flex;
     align-items: center;
     height: 100%;
-    padding: 0 20px;
     margin-top: 30px;
 }
 
 
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 1200px) {
     .form-submit {
-        padding: 0;
+        padding-left: 50px;
+        padding-right: 50px;
     }
 }
 
@@ -71,7 +83,7 @@
     background-color: #fff;
     border: 1px solid #C3CAD9;
 	border-radius: 8px;
-	padding: 17px;
+	padding: 13px;
 }
 
 @media screen and (min-width: 576px) {
