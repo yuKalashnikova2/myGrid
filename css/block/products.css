@@ -17,7 +17,13 @@
     margin-bottom: 24px;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 768px) {
+    .products__title {
+        margin-bottom: 28px;
+    }
+}
+
+@media screen and (min-width: 992px) {
     .products__title {
         margin-bottom: 0;
     }
