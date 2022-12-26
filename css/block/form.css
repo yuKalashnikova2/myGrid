@@ -131,6 +131,7 @@
     .form-btn__hidden{
         display: none;
     }
+
 }
 
 .form-btn__show  {
@@ -177,5 +178,11 @@
 	background-position: center;
 }
 
+@media screen and (max-width: 576px) {
+   .form-main .btn:hover {
+        background: white;
+        color: var(--black);
+    }
 
+}
 
